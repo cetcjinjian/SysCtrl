@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\通信">
+      <UniqueIdentifier>{bf8c5523-3194-4df9-b6eb-fe5d06baa3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\通信">
+      <UniqueIdentifier>{bece0f37-3047-4b83-90ba-e0044c26a9c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\数据显示表格">
+      <UniqueIdentifier>{14c7b738-3878-488c-8b79-00c0039b4b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据显示表格">
+      <UniqueIdentifier>{6d02c329-c7a3-43ce-bdf2-9db974be3d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\环形缓存">
+      <UniqueIdentifier>{222d2e98-5dc4-4611-876c-6fd7e7282b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\环形缓存">
+      <UniqueIdentifier>{c89f84f4-fb6e-4ec3-9f7e-7e4b7d74006c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\协议处理">
+      <UniqueIdentifier>{ac05fbc2-f730-4212-a7c4-895a4e8b6565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\协议处理">
+      <UniqueIdentifier>{6fd579ac-d6a5-47e4-8181-3b6c082807b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\框架生成">
+      <UniqueIdentifier>{82989b7f-7855-4fbe-8d7d-3d38540b25b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\框架生成">
+      <UniqueIdentifier>{6a65b89d-ddd8-4156-bc8d-503c570864d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\命令类">
+      <UniqueIdentifier>{75607f97-780f-42f9-a5cd-3e1fe8a4a88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\命令类">
+      <UniqueIdentifier>{4853e6c5-549d-477c-9108-e49c416b9ba5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TransData.h">
+      <Filter>头文件\通信</Filter>
+    </ClInclude>
+    <ClInclude Include="TransData_Com.h">
+      <Filter>头文件\通信</Filter>
+    </ClInclude>
+    <ClInclude Include="BackStagePageInfo.h">
+      <Filter>头文件\框架生成</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件\框架生成</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputBar.h">
+      <Filter>头文件\框架生成</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\框架生成</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\框架生成</Filter>
+    </ClInclude>
+    <ClInclude Include="SysCtrl.h">
+      <Filter>头文件\框架生成</Filter>
+    </ClInclude>
+    <ClInclude Include="SysCtrlDoc.h">
+      <Filter>头文件\框架生成</Filter>
+    </ClInclude>
+    <ClInclude Include="SysCtrlView.h">
+      <Filter>头文件\框架生成</Filter>
+    </ClInclude>
+    <ClInclude Include="TransData_Udp.h">
+      <Filter>头文件\通信</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDataGrid.h">
+      <Filter>头文件\数据显示表格</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>头文件\环形缓存</Filter>
+    </ClInclude>
+    <ClInclude Include="COM_CONSTDEF.h">
+      <Filter>头文件\通信</Filter>
+    </ClInclude>
+    <ClInclude Include="TransData_Manager.h">
+      <Filter>头文件\通信</Filter>
+    </ClInclude>
+    <ClInclude Include="UDP_CONSTDEF.h">
+      <Filter>头文件\通信</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolData.h">
+      <Filter>头文件\协议处理</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolData_protocol1.h">
+      <Filter>头文件\协议处理</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolData_protocol2.h">
+      <Filter>头文件\协议处理</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolData_Manager.h">
+      <Filter>头文件\协议处理</Filter>
+    </ClInclude>
+    <ClInclude Include="Cmd.h">
+      <Filter>头文件\命令类</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdData.h">
+      <Filter>头文件\命令类</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackStagePageInfo.cpp">
+      <Filter>源文件\框架生成</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件\框架生成</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputBar.cpp">
+      <Filter>源文件\框架生成</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\框架生成</Filter>
+    </ClCompile>
+    <ClCompile Include="SysCtrl.cpp">
+      <Filter>源文件\框架生成</Filter>
+    </ClCompile>
+    <ClCompile Include="SysCtrlDoc.cpp">
+      <Filter>源文件\框架生成</Filter>
+    </ClCompile>
+    <ClCompile Include="SysCtrlView.cpp">
+      <Filter>源文件\框架生成</Filter>
+    </ClCompile>
+    <ClCompile Include="TransData_Com.cpp">
+      <Filter>源文件\通信</Filter>
+    </ClCompile>
+    <ClCompile Include="TransData_Udp.cpp">
+      <Filter>源文件\通信</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDataGrid.cpp">
+      <Filter>源文件\数据显示表格</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>源文件\环形缓存</Filter>
+    </ClCompile>
+    <ClCompile Include="TransData.cpp">
+      <Filter>源文件\通信</Filter>
+    </ClCompile>
+    <ClCompile Include="TransData_Manager.cpp">
+      <Filter>源文件\通信</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolData.cpp">
+      <Filter>源文件\协议处理</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolData_protocol1.cpp">
+      <Filter>源文件\协议处理</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolData_protocol2.cpp">
+      <Filter>源文件\协议处理</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolData_Manager.cpp">
+      <Filter>源文件\协议处理</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdData.cpp">
+      <Filter>源文件\命令类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SysCtrl.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\SysCtrl.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BCGSoft_ribbon\SysCtrl.ribbon.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Workspace.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SysCtrlDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SysCtrl.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BCGSoft_ribbon\main.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BCGSoft_ribbon\category_backstage_small.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BCGSoft_ribbon\category_small_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BCGSoft_ribbon\category_large_0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BCGSoft_ribbon\ribbon_bar.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ribbonfilelarge.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\BCGSoft_ribbon\ribbon.xml" />
+  </ItemGroup>
+</Project>
